@@ -1,0 +1,18 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "parser.c"
+        "actuator.c"
+        "sync.c"
+        "task_command_rx.c"
+        "task_actuate.c"
+        "task_watchdog.c"
+        "task_status.c"
+    INCLUDE_DIRS 
+        "../include"
+    REQUIRES 
+        driver 
+        esp_timer 
+        freertos
+        log
+)
