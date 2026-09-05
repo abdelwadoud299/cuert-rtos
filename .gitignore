@@ -1,0 +1,22 @@
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+
+# Arduino temporary files
+*.hex
+*.bin
+*.elf
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
